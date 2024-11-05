@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className=" bg-gradient-to-r from-pink-300 via-purple-700 to-slate-200  bg-clip-text text-5xl  text-transparent lg:text-3xl md:text-2xl sm:text-xl "
           >
-            Mern Stack devloper
+            Front-End Developer
           </motion.h3>
           <motion.p
             whileInView={{ x: 0, opacity: 1 }}
@@ -29,11 +29,10 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="my-2 text-xl max-w-2xl text-justify py-6 font-light tracking-tighter md:text-xl sm:text-lg sm:text-left"
           >
-            I am a passionate full stack developer with a knack for crafting
-            robust and scalable web applications. With 5 years of hands-on
-            experience, I have honed my skills in front-end technologies like
-            React and Next.js, as well as back-end technologies like Node.js,
-            MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise
+            I am a passionate Front-End Developer with a knack for crafting
+            robust and scalable web applications. I have honed my skills in front-end technologies like
+            React, Bootstrap and Tailwind Css with Framer Motion, as well as basic of back-end technologies like Node.js,
+            Express.js, and MongoDB. My goal is to leverage my expertise
             to create innovative solutions that drive business growth and
             deliver exceptional user experiences.
           </motion.p>

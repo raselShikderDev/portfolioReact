@@ -1,7 +1,13 @@
-import project1 from "/assets/projects/project-1.jpg";
-import project2 from "/assets/projects/project-2.jpg";
-import project3 from "/assets/projects/project-3.jpg";
-import project4 from "/assets/projects/project-4.jpg";
+// import project1 from "/assets/projects/project-1.jpg";
+// import project2 from "/assets/projects/project-2.jpg";
+// import project3 from "/assets/projects/project-3.jpg";
+// import project4 from "/assets/projects/project-4.jpg";
+
+import project1 from "/assets/pProject/fruit.png";
+import project2 from "/assets/pProject/pokemon.png";
+import project3 from "/assets/pProject/world.png";
+import project4 from "/assets/pProject/movie.png";
+// E:\programme\React\portfolioReact\public\assets\pProject\fruit.png
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -38,36 +44,63 @@ export const EXPERIENCES = [
   },
 ];
 
+// export const PROJECTS = [
+//   {
+//     title: "E-Commerce Website",
+//     image: project1,
+//     description:
+//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+//   },
+//   {
+//     title: "Task Management App",
+//     image: project2,
+//     description:
+//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+//   },
+//   {
+//     title: "Portfolio Website",
+//     image: project3,
+//     description:
+//       "A personal portfolio website showcasing projects, skills, and contact information.",
+//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+//   },
+//   {
+//     title: "Blogging Platform",
+//     image: project4,
+//     description:
+//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+//     technologies: ["HTML", "CSS", "React", "Express", "mySQL"],
+//   },
+// ];
+
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "Rasels Pokemon",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "This website was made to help Pokémon fans locate the Pokémon they want and learn about their abilities",
+    technologies: ["HTML", "CSS", "React", "Axios", "API"]
   },
   {
-    title: "Portfolio Website",
+    title: "World Tour",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: " The websites provide information about nations and reveal unknown facts.",
+    technologies: ["HTML", "TailwindCSS", "React", "API", "React-router"]
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React", "Express", "mySQL"],
+    title: "Fruit Store",
+    image: project1,
+    description: "This landing page was made for a fresh fruit vendor who sells produce straight from their Farms",
+    technologies: ["HTML", "TailwindCSS", "React", " Framer Motion"]
   },
-];
+  {
+    title: "Titanic Movies",
+    image: project4,
+    description: "The website was created to provide information about all Titanic films; a review area will be added later",
+    technologies: ["HTML", "TailwindCSS", "React", "React-router"]
+  },
+]
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",

@@ -30,17 +30,7 @@ const About = () => {
           className="w-full flex items-center lg:w-1/2"
         >
           <p className="my-2 text-xl max-w-2xl text-justify py-6 font-light tracking-tighter md:px-12 md:mx-auto sm:text-left">
-            I am a dedicated and versatile full stack developer with a passion
-            for creating efficient and user-friendly web applications. With 5
-            years of professional experience, I have worked with a variety of
-            technologies, including React, Next.js, Node.js, MySQL, PostgreSQL,
-            and MongoDB. My journey in web development began with a deep
-            curiosity for how things work, and it has evolved into a career
-            where I continuously strive to learn and adapt to new challenges. I
-            thrive in collaborative environments and enjoy solving complex
-            problems to deliver high-quality solutions. Outside of coding, I
-            enjoy staying active, exploring new technologies, and contributing
-            to open-source projects.
+           Enthusiastic front-end developer with hands-on experience in HTML, CSS, JavaScript, React, and modern CSS frameworks like Tailwind CSS and Bootstrap. Passionate about creating responsive, visually appealing web applications. Proven ability to work with GitHub and third-party hosting for live deployments. Seeking a remote internship to further develop my skills and contribute to innovative projects.
           </p>
         </motion.div>
       </div>

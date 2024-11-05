@@ -18,7 +18,7 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0 }}
           className="text-xl text-center"
         >
-          Somewhere in Dhaka, Bangladesh
+          keraniganj, Dhaka, Bangladesh
         </motion.p>
         <motion.p
           whileInView={{ x: 0, opacity: 1 }}
@@ -26,9 +26,9 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0 }}
           className="text-xl text-center"
         >
-          +8801234567890
+          +8801772108026
         </motion.p>
-        <a href="#" className="text-xl border-b ">
+        <a href="mailto:rasel.sikder777.rk@gmail.com" className="text-xl border-b ">
           rasel.sikder777.rk@gmail.com
         </a>
       </div>
