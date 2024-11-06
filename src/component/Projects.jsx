@@ -23,7 +23,7 @@ const Projects = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 initial={{ x: -100, opacity: 0 }}
                 transition={{ duration: 0.8, delay: 0 }}
-                className="w-full lg:w-1/4 sm:w-2/4"
+                className="w-full lg:w-1/4 sm:w-2/4 lg:mr-16"
               >
                 <img
                   width={250}
