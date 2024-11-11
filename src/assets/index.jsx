@@ -7,6 +7,7 @@ import project1 from "/assets/pProject/fruit.png";
 import project2 from "/assets/pProject/pokemon.png";
 import project3 from "/assets/pProject/world.png";
 import project4 from "/assets/pProject/movie.png";
+import project5 from "/assets/pProject/e-commerce.png";
 // E:\programme\React\portfolioReact\public\assets\pProject\fruit.png
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -77,11 +78,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Rasels Pokemon",
-    image: project2,
-    description: "This website was made to help Pokémon fans locate the Pokémon they want and learn about their abilities",
-    technologies: ["HTML", "CSS", "React", "Axios", "API"]
+    title: "ShopyHub",
+    image: project5,
+    description: "The E-commerce website was Build for sell varius type prodact with dark, light mode and user-freindly Design ",
+    technologies: ["HTML", "TailwindCSS", "React", "React-router", "Aos"]
   },
+  
   {
     title: "World Tour",
     image: project3,
@@ -95,7 +97,13 @@ export const PROJECTS = [
     technologies: ["HTML", "TailwindCSS", "React", " Framer Motion"]
   },
   {
-    title: "Titanic Movies",
+    title: "Rasels Pokemon",
+    image: project2,
+    description: "This website was made to help Pokémon fans locate the Pokémon they want and learn about their abilities",
+    technologies: ["HTML", "CSS", "React", "Axios", "API"]
+  },
+  {
+    title: "Film Ghor",
     image: project4,
     description: "The website was created to provide information about all Titanic films; a review area will be added later",
     technologies: ["HTML", "TailwindCSS", "React", "React-router"]

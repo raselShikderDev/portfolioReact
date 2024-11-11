@@ -2,7 +2,7 @@ import {
   FaFacebookMessenger,
   FaGithub,
   FaLinkedinIn,
-  FaInstagram,
+  // FaInstagram,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -40,15 +40,22 @@ const Navbar = () => {
           size < 400 ? "gap-3" : "gap-5"
         } items-center`}
       >
-        <FaInstagram className={`${size < 570 ? "text-xl" : "text-2xl"}`} />
-        <FaFacebookMessenger
+        <a href="https://www.facebook.com/mr.alien.ahmed" target="_blank" rel="noopener noreferrer">
+          <FaFacebookMessenger
           className={`${size < 570 ? "text-xl" : "text-2xl"}`}
         />
-        <FaLinkedinIn className={`${size < 570 ? "text-xl" : "text-2xl"}`} />
-        <FaGithub className={`${size < 570 ? "text-xl" : "text-2xl"}`} />
-        <FaXTwitter
+        </a>
+        <a href="https://github.com/raselShikderDev" target="_blank" rel="noopener noreferrer">
+          <FaGithub className={`${size < 570 ? "text-xl" : "text-2xl"}`} />
+        </a>
+        <a href="https://www.linkedin.com/in/raseldev/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedinIn className={`${size < 570 ? "text-xl" : "text-2xl"}`} />
+        </a>
+        <a href="https://x.com/raselShikderDev" target="_blank" rel="noopener noreferrer">
+          <FaXTwitter
           className={`${size < 570 ? "text-xl hidden" : "text-2xl"} `}
         />
+        </a>
       </div>
     </nav>
   );

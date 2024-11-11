@@ -20,15 +20,27 @@ const Footer = () => {
         >
           keraniganj, Dhaka, Bangladesh
         </motion.p>
-        <motion.p
+        {/* <motion.p
           whileInView={{ x: 0, opacity: 1 }}
           initial={{ x: 100, opacity: 0 }}
           transition={{ duration: 0.8, delay: 0 }}
           className="text-xl text-center"
         >
           +8801772108026
-        </motion.p>
-        <a href="mailto:rasel.sikder777.rk@gmail.com" className="text-xl border-b ">
+        </motion.p> */}
+        <motion.a
+          whileInView={{ x: 0, opacity: 1 }}
+          initial={{ x: 100, opacity: 0 }}
+          transition={{ duration: 0.8, delay: 0 }}
+          className="text-xl text-center"
+          href="tel:+8801772108026"
+        >
+          +8801772108026
+        </motion.a>
+        <a
+          href="mailto:rasel.sikder777.rk@gmail.com"
+          className="text-xl border-b "
+        >
           rasel.sikder777.rk@gmail.com
         </a>
       </div>
